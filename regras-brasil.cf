@@ -345,7 +345,7 @@ body        SA_OPERADORAS2 /vantagens de ser um cliente Oi|A Malta|empresa parce
 score       SA_OPERADORAS2 10
 describe    SA_OPERADORAS2 Phishing operadoras 2
 
-body        SA_OPERADORAS3 /Acreditamos que tenha ocorrido|algum imprevisto com o pagamento de sua conta|pois identificamos em nosso sistema|que ha valores em aberto|relacionado ao seu CPF/CNPJ|registrar-se na nova interface|Share_Point|COM TECNOLOGIA NANO|Compra no credito de|Emily Blunt|John Krasinski|Como forma de equalizar o erro de nosso software/i
+body        SA_OPERADORAS3 /Acreditamos que tenha ocorrido|algum imprevisto com o pagamento de sua conta|pois identificamos em nosso sistema|que ha valores em aberto|relacionado ao seu CPF\/CNPJ|registrar-se na nova interface|Share_Point|COM TECNOLOGIA NANO|Compra no credito de|Emily Blunt|John Krasinski|Como forma de equalizar o erro de nosso software/i
 score       SA_OPERADORAS3 30
 describe    SA_OPERADORAS3 Phishing operadoras 3
 
@@ -4769,7 +4769,7 @@ header      SA_TRASH729 Subject =~ /\bNovo processo protocolado em|PREFEITURA DA
 score       SA_TRASH729 80
 describe    SA_TRASH729 Spam Trash geral 729
 
-header      SA_TRASH730 Subject =~ /\bEntrega do pedido #|O mensageiro Jackson Silva|Seu mensageiro esta a caminho|Jackson ja esta na estrada|ja esta em movimento|BB Livelo Sua Fatura Rendeu Pontos|Jackson Silva esta chegando|SEUS PONTOS VENCEM RESGATE AGORA|encomendas Correios do Brasil|recebeu um documento seguro|Super-Desconto Pagando HOJE|MASSARETTO & MORAIS COM/i
+header      SA_TRASH730 Subject =~ /\bEntrega do pedido|O mensageiro Jackson Silva|Seu mensageiro esta a caminho|Jackson ja esta na estrada|ja esta em movimento|BB Livelo Sua Fatura Rendeu Pontos|Jackson Silva esta chegando|SEUS PONTOS VENCEM RESGATE AGORA|encomendas Correios do Brasil|recebeu um documento seguro|Super-Desconto Pagando HOJE|MASSARETTO & MORAIS COM/i
 score       SA_TRASH730 80
 describe    SA_TRASH730 Spam Trash geral 730
 
