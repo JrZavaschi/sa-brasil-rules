@@ -4911,11 +4911,11 @@ meta        SUBJ_VIRUS_ZIPADO ( __SUBJ_PAGAMENTO && __MIME_ANEXOS )
 score       SUBJ_VIRUS_ZIPADO 20
 describe    SUBJ_VIRUS_ZIPADO Phishing contendo virus zipado em anexo
 
-header     __DN_PHPSRC    X-Source =~ /\/usr\/bin\/php/
-header     __DN_PHPSRCARG1 X-Source-Args =~ /\/usr\/bin\/php/
-header     __DN_PHPSRCARG2 X-Source-Args =~ /\/usr\/sbin\/proxyexec/
-header     __DN_PHPSRCARG3 X-Source-Args =~ /\/usr\/sbin\//
-header     __DN_PHPSRCARG4 X-Source-Args =~ /\/usr\/bin\//
+header     __DN_PHPSRC    X-Source =~ /\/usr\/bin\/php/i
+header     __DN_PHPSRCARG1 X-Source-Args =~ /\/usr\/bin\/php/i
+header     __DN_PHPSRCARG2 X-Source-Args =~ /\/usr\/sbin\/proxyexec/i
+header     __DN_PHPSRCARG3 X-Source-Args =~ /\/usr\/sbin\//i
+header     __DN_PHPSRCARG4 X-Source-Args =~ /\/usr\/bin\//i
 header     __DN_PHPSRCDIR1 X-Source-Dir =~ /wp-content/i
 header     __DN_PHPSRCDIR2 X-Source-Dir =~ /public_html/i
 
