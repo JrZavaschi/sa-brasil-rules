@@ -28,8 +28,7 @@ O objetivo é melhorar a detecção de SPAM, phishing e malwares comuns em campa
    spamassassin --lint
 
 4. Reinicie o serviço:
-   ```bash
-   systemctl restart spamassassin
+   ```bash 
    pmgconfig sync
    systemctl restart pmg-smtp-filter
  
