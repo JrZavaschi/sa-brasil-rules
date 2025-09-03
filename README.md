@@ -38,12 +38,12 @@ Postfix
 
 Para usar os bloqueios de subdomínios:
 
-smtpd_sender_restrictions =
-    check_sender_access hash:/etc/postfix/sub_domains_block_postfix,
-    permit_mynetworks,
-    reject_non_fqdn_sender,
-    reject_unknown_sender_domain,
-    permit
+   smtpd_sender_restrictions =
+      check_sender_access hash:/etc/postfix/sub_domains_block_postfix,
+      permit_mynetworks,
+      reject_non_fqdn_sender,
+      reject_unknown_sender_domain,
+      permit
 
 
 ## Depois:
