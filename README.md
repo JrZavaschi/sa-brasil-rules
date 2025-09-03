@@ -33,3 +33,51 @@ O objetivo é melhorar a detecção de SPAM, phishing e malwares comuns em campa
    systemctl restart pmg-smtp-filter
  
 
+
+Postfix
+
+Para usar os bloqueios de subdomínios:
+
+smtpd_sender_restrictions =
+    check_sender_access hash:/etc/postfix/sub_domains_block_postfix,
+    permit_mynetworks,
+    reject_non_fqdn_sender,
+    reject_unknown_sender_domain,
+    permit
+
+
+## Depois:
+
+postmap /etc/postfix/sub_domains_block_postfix
+systemctl reload postfix
+
+## Exim
+
+Inclua os arquivos domain_blacklist_exim e ip_blacklist_exim no seu ACL de verificação de remetente.
+Exemplo:
+
+deny senders = /etc/exim/domain_blacklist_exim
+deny hosts   = /etc/exim/ip_blacklist_exim
+
+⚠️ Aviso
+
+Algumas regras utilizam listas públicas (URIBL, SURBL, DBL Spamhaus) e podem exigir acesso DNS externo.
+
+Ajuste os scores de acordo com a sua política de SPAM.
+
+Sempre teste em ambiente de homologação antes de usar em produção.
+
+🤝 Contribuindo
+
+Pull Requests são bem-vindos!
+Você pode contribuir enviando:
+
+Novas regras adaptadas para o cenário brasileiro
+
+Correções de regex quebradas
+
+Ajustes de score
+
+📄 Licença
+
+Este projeto é disponibilizado sob a licença MIT.
