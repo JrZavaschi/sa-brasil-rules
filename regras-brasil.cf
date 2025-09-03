@@ -401,7 +401,7 @@ header      SA_MERCADOLIVRE11 Subject =~ /\bTendências para o inverno|OFERTA HI
 score       SA_MERCADOLIVRE11 40
 describe    SA_MERCADOLIVRE11 Phishing Mercado Livre 11
 
-header      SA_MERCADOLIVRE12 Subject =~ /\bTentativa de acesso suspeito|take a look at this again|Detectamos um novo acesso|Grandes oportunidades|leiloes de imoveis|para ganhar dinheiro|sua conta e a bloqueamos|ServerTimeout-Action|Best Site|Bet Online|Very vital|ENC:Guia Simples Nacional Ref|Ma­il­b­ox Su­pp­o­rt|Prazo de Vencimento do Registro|Informamos que o pix realizado/i
+header      SA_MERCADOLIVRE12 Subject =~ /\bTentativa de acesso suspeito|take a look at this again|Detectamos um novo acesso|Grandes oportunidades|leiloes de imoveis|para ganhar dinheiro|sua conta e a bloqueamos|ServerTimeout-Action|Best Site|Bet Online|Very vital|ENC:Guia Simples Nacional Ref|Mailbox Support|Prazo de Vencimento do Registro|Informamos que o pix realizado/i
 score       SA_MERCADOLIVRE12 30
 describe    SA_MERCADOLIVRE12 Phishing Mercado Livre 12
 
@@ -413,11 +413,11 @@ body        SA_FINANCEIRAS2 /deixar seu bolso mais leve|Abrindo a Conta BV|muita
 score       SA_FINANCEIRAS2 30
 describe    SA_FINANCEIRAS2 Spam Financeiras 2
 
-body        SA_FINANCEIRAS3 /crédito pré-aprovado pra fechar|um novo contrato e trocar de veículo|pré-aprovado pra financiar|Até 60 meses para pagar|Escolha entre novos e usados|100% dos gases poluentes|BV com muitas vantagens|ATM Card|Irvine Kim|keep your account from being deactivated|ge­t an up­dat­ed ma­ilb­ox|COMERCIAL AGRO INDUSTRIAL|queira receber a fatura por outro meio/i
+body        SA_FINANCEIRAS3 /crédito pré-aprovado pra fechar|um novo contrato e trocar de veículo|pré-aprovado pra financiar|Até 60 meses para pagar|Escolha entre novos e usados|100% dos gases poluentes|BV com muitas vantagens|ATM Card|Irvine Kim|keep your account from being deactivated|get an updated mailbox|COMERCIAL AGRO INDUSTRIAL|queira receber a fatura por outro meio/i
 score       SA_FINANCEIRAS3 30
 describe    SA_FINANCEIRAS3 Spam Financeiras 3
 
-body        SA_FINANCEIRAS4 /empresa possuindo um banco de dados|fazem sentido ao usuário e que auxiliam|DEMONSTRAÇÃO GRATUITA|nossos especialistas estão|Duncan Mackinnon|Executive Director|Bank of England|Blessing Of Allah|Password Expiry Notification|Account will be  automatically deleted after|Ma­il­b­ox Su­pp­o­rt|Kristalina Georgieva|previous conversation with my colleague/i
+body        SA_FINANCEIRAS4 /empresa possuindo um banco de dados|fazem sentido ao usuário e que auxiliam|DEMONSTRAÇÃO GRATUITA|nossos especialistas estão|Duncan Mackinnon|Executive Director|Bank of England|Blessing Of Allah|Password Expiry Notification|Account will be  automatically deleted after|Mailbox Support|Kristalina Georgieva|previous conversation with my colleague/i
 score       SA_FINANCEIRAS4 30
 describe    SA_FINANCEIRAS4 Spam Financeiras 4
 
@@ -617,11 +617,11 @@ body        SA_JUNKSPAM31 /transferir alguns fundos|Advogado I. Williams|20 milh
 score       SA_JUNKSPAM31 10
 describe    SA_JUNKSPAM31 Junk Spam 31
 
-body        SA_JUNKSPAM32 /has been automatically renewed|Advanced Network and Device Protection|auto charge every year unless|Helpline Center Head|The subscription amount of|P­­­­a­­­­­s­­­­­s­­­­­­wo­­­­r­­­­d E­­­­­­­x­­p­i­­­r­­y no­­­t­i­c­­e|re­­­t­­a­­­i­­­n or ch­­­an­­ge your p­­­­a­­­­s­­­­s­­­­­wo­­­­­r­d|Garcia Charles Gilbert|Aconselhamos que você esvazie e atualize sua conta|Vuelva a confirmar la propiedad de la cuenta|Account security check/i
+body        SA_JUNKSPAM32 /has been automatically renewed|Advanced Network and Device Protection|auto charge every year unless|Helpline Center Head|The subscription amount of|Password Expiry notice|retain or change your password|Garcia Charles Gilbert|Aconselhamos que você esvazie e atualize sua conta|Vuelva a confirmar la propiedad de la cuenta|Account security check/i
 score       SA_JUNKSPAM32 10
 describe    SA_JUNKSPAM32 Junk Spam 32
 
-body        SA_JUNKSPAM33 /b­­u­­t­­to­­n b­­e­­l­­ow to re­­ta­­in c­­u­­rr­­­en­t p­­­a­­­s­­­s­­­wo­­­r­­d|re­­­t­­a­­­i­­­n or ch­­­an­­ge your p­­­­a­­­­s­­­­s­­­­­wo­­­­­r­d no­­­w|You are urgently adviced to|av­­­­oi­­­d lo­­g­­­­­in i­­­s­­­s­­­ue­s w­­­i­­­t­­h|a­­­­l­­­­l a­­­­p­­­­p­­­s r­­­­e­­­l­­­a­­­te­­d to yo­­­ur ac­­­c­o­­u­­n­­t|b­­u­­t­­to­­n b­­e­­l­­ow to|re­­ta­­in c­­u­­rr­­­en­t p­­­a­­­s­­­s­­­wo­­­r­­d|La Cantera Parkway Bldg|Programa de Pontos Bradesco: Voce com Pontos Livelo|Presidente do FMI|Account Security Check|hoje para manter sua senha/i
+body        SA_JUNKSPAM33 /button below to retain current password|retain or change your password now|You are urgently adviced to|avoid login issues with|all apps related to your account|button below to|retain current password|La Cantera Parkway Bldg|Programa de Pontos Bradesco: Voce com Pontos Livelo|Presidente do FMI|Account Security Check|hoje para manter sua senha/i
 score       SA_JUNKSPAM33 10
 describe    SA_JUNKSPAM33 Junk Spam 33
 
@@ -973,7 +973,7 @@ body        SA_ENGLISH4 /is scheduled to expire|continue using this email|kindly
 score       SA_ENGLISH4 30
 describe    SA_ENGLISH4 Spam geral em inglês 4
 
-body        SA_PROCESSO1 /INTIMAÇÃO da parte executada|acrescidas de eventuais custas processuais|Em "ANEXO" - Intimação Classe|apresentar impugnação|atualizar sua senha atual|SUA PRISÃO EM CURSO|want my bank management|Time LEVE ASSET|fazer as necessidades no lugar certo|seu amor para um cantinho especial|Fountainbrook Blvd Apt|Sa­­­­­­­­­­­­­­­­bre­­­­­­­­­­­­­­­­ Suppo­­­­­­­­­­­­rt|Administrator Service/i
+body        SA_PROCESSO1 /INTIMAÇÃO da parte executada|acrescidas de eventuais custas processuais|Em "ANEXO" - Intimação Classe|apresentar impugnação|atualizar sua senha atual|SUA PRISÃO EM CURSO|want my bank management|Time LEVE ASSET|fazer as necessidades no lugar certo|seu amor para um cantinho especial|Fountainbrook Blvd Apt|Sabre Support|Administrator Service/i
 score       SA_PROCESSO1 10
 describe    SA_PROCESSO1 Phishing Processo Justiça 1
 
@@ -989,7 +989,7 @@ body        SA_PROCESSO4 /contra menores em sites privados|A SUA CONVOCAÇÃO PA
 score       SA_PROCESSO4 30
 describe    SA_PROCESSO4 Phishing Processo Justiça 4
 
-body        SA_VIDAFINANCEIRA1 /Rosângela Carvalho|Vizale Soluções Administrativas|Consultoria de Crédito e Serviços|Órgãos de Proteção ao Crédito|passam por dificuldades financeiras|excelência recuperando o nome da pessoa|Um novo dispositivo conectou a conta|Viaje com a família pra um destino diferente|CRIMES CIBERNÉTICOS do FBI|Sa­­­­­­­­­­­­­­­­bre­­­­­­­­­­­­­­­­ Suppo­­­­­­­­­­­­rt|Segue lista de desligamentos/i
+body        SA_VIDAFINANCEIRA1 /Rosângela Carvalho|Vizale Soluções Administrativas|Consultoria de Crédito e Serviços|Órgãos de Proteção ao Crédito|passam por dificuldades financeiras|excelência recuperando o nome da pessoa|Um novo dispositivo conectou a conta|Viaje com a família pra um destino diferente|CRIMES CIBERNÉTICOS do FBI|Sabre Support|Segue lista de desligamentos/i
 score       SA_VIDAFINANCEIRA1 30
 describe    SA_VIDAFINANCEIRA1 Spam vida financeira 1
 
