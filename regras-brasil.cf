@@ -73,7 +73,7 @@ header      SA_SPAMGERAL2 Subject =~ /\bSomeone matched with you|Gordurinhas ind
 score       SA_SPAMGERAL2 40
 describe    SA_SPAMGERAL2 Spam Geral 2
 
-header      SA_SPAMGERAL3 Subject =~ /\bSeu boleto foi atualizado com novo valor|Novas oportunidades para aumentar suas vendas|Nome Limpo Cartao Atacadao|200 Cursos pelo Valor de|Acesso Incomum|Solid partnerships video|PRIMITIVO DI|PARABENS VOCE GANHOU|Boleto com vencimeto HOJE|Boleto com Pagamento Pendente|Y؜o؜؜u؜؜؜r؜ do؜؜m؜؜؜a؜i؜n؜ ؜؜؜n؜a؜m؜e؜؜ ؜؜؜ha؜s؜؜ b؜ee؜؜n؜ ؜e؜xp؜؜؜i؜r؜؜؜e؜d|Estamos teniendo problemas/i
+header      SA_SPAMGERAL3 Subject =~ /\bSeu boleto foi atualizado com novo valor|Novas oportunidades para aumentar suas vendas|Nome Limpo Cartao Atacadao|200 Cursos pelo Valor de|Acesso Incomum|Solid partnerships video|PRIMITIVO DI|PARABENS VOCE GANHOU|Boleto com vencimeto HOJE|Boleto com Pagamento Pendente|Your domain name has been expired|Estamos teniendo problemas/i
 score       SA_SPAMGERAL3 30
 describe    SA_SPAMGERAL3 Spam Geral 3
 
@@ -89,11 +89,11 @@ header      SA_SPAMGERAL6 Subject =~ /\bSenha Vencida|Altere Sua Senha|Alerta: S
 score       SA_SPAMGERAL6 40
 describe    SA_SPAMGERAL6 Spam Geral 6
 
-body        SA_SPAMGERAL7 /tentativa de acesso não identificada em sua conta|senha precisa ser trocada o mais breve|Senha Vencida|conta de e-mail poderá ser desativada definitivamente e seus dados apagados|Jogo NFT|Commerce Apps|seus pontos creditados na sua conta|Business Apps|interested in Developing a Mobile|Y؜o؜؜u؜؜؜r؜ do؜؜m؜؜؜a؜i؜n؜ ؜؜؜n؜a؜m؜e؜؜ ؜؜؜ha؜s؜؜ b؜ee؜؜n؜ ؜e؜xp؜؜؜i؜r؜؜؜e؜d/i
+body        SA_SPAMGERAL7 /tentativa de acesso não identificada em sua conta|senha precisa ser trocada o mais breve|Senha Vencida|conta de e-mail poderá ser desativada definitivamente e seus dados apagados|Jogo NFT|Commerce Apps|seus pontos creditados na sua conta|Business Apps|interested in Developing a Mobile|Your domain name has been expired/i
 score       SA_SPAMGERAL7 10
 describe    SA_SPAMGERAL7 Spam Geral 7
 
-body        SA_SPAMGERAL8 /agências exclusivas Itaú Personnalité|as modalidades acima já estão disponíveis para você|agências exclusivas e gerente disponível 24h por dia|boas vindas ao Itaú Personnalité|Blockchain Apps|Poggio Maru|working with an Indian based company|intensive experience in creating apps|Travel App|U؜p؜da؜t؜e؜ ؜i؜t ؜no؜w ؜o؜r ؜r؜isk ؜lo؜s؜i؜ng ؜y؜ou؜r p؜roduct؜s|OzempiGotas/i
+body        SA_SPAMGERAL8 /agências exclusivas Itaú Personnalité|as modalidades acima já estão disponíveis para você|agências exclusivas e gerente disponível 24h por dia|boas vindas ao Itaú Personnalité|Blockchain Apps|Poggio Maru|working with an Indian based company|intensive experience in creating apps|Travel App|Update it now or risk losing your products|OzempiGotas/i
 score       SA_SPAMGERAL8 20
 describe    SA_SPAMGERAL8 Spam Geral 8
 
@@ -1585,7 +1585,7 @@ body        SA_PESCARIA18 /Grandes empresas fazem|E-mail Marketing|Envio de e-ma
 score       SA_PESCARIA18 30
 describe    SA_PESCARIA18 Spam pescaria 18
 
-body        SA_PESCARIA19 /refe‍rente ao Re‍gist­ro do|im‌p‍o‌rt‍a­nte o re­gi​s­t​ro garan​t​i‌n‌do|a pr‍opr​i​e؜da‍d‌e do nome|evitan؜do que um te​r​cei­r‍o ve​n‌h­a|con​t​a​t؜o com no​sso SAC infor­ma​ndo|RegistraCom|Comprobante Fiscal digital|Se Anexa el seguiente|WARNING FROM CENTRAL|BANK Of NIGERIA|Um mega desconto para voce viajar|Sindicato pdf foi assinado por todos|vossas actividades ilegais/i
+body        SA_PESCARIA19 /referente ao Registro do|importante o registro garantindo|a propriedade do nome|evitando que um terceiro venha|contato com nosso SAC informando|RegistraCom|Comprobante Fiscal digital|Se Anexa el seguiente|WARNING FROM CENTRAL|BANK Of NIGERIA|Um mega desconto para voce viajar|Sindicato pdf foi assinado por todos|vossas actividades ilegais/i
 score       SA_PESCARIA19 10
 describe    SA_PESCARIA19 Spam pescaria 19
 
