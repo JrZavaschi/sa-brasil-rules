@@ -81,7 +81,7 @@ body        SA_SPAMGERAL4 /Emails sent to you are not delivered when your inbox|
 score       SA_SPAMGERAL4 10
 describe    SA_SPAMGERAL4 Spam Geral 4
 
-header      SA_SPAMGERAL5 Subject =~ /\bThe mailbox has reached your quota|Notificao Extrajudicial|Tentativa de entrega sem sucesso|Bradesco Saúde é Mais Economia|A capacidade disponível em seu webmail|Stuttgart Porsche|Bitcoin Deposit|Atendemos pelas operadoras TIM|REGISTRO DE EMAIL OBRIGATÓRIO|Aceitamos Picpay|Corpo de Bombeiros - Vencimento de Vistoria|Pedido (/i
+header      SA_SPAMGERAL5 Subject =~ /\bThe mailbox has reached your quota|Notificao Extrajudicial|Tentativa de entrega sem sucesso|Bradesco Saúde é Mais Economia|A capacidade disponível em seu webmail|Stuttgart Porsche|Bitcoin Deposit|Atendemos pelas operadoras TIM|REGISTRO DE EMAIL OBRIGATÓRIO|Aceitamos Picpay|Corpo de Bombeiros - Vencimento de Vistoria|Pedido/i
 score       SA_SPAMGERAL5 40
 describe    SA_SPAMGERAL5 Spam Geral 5
 
@@ -4765,7 +4765,7 @@ header      SA_TRASH728 Subject =~ /\bProtesto Registrado em Seu Nome|immediate 
 score       SA_TRASH728 80
 describe    SA_TRASH728 Spam Trash geral 728
 
-header      SA_TRASH729 Subject =~ /\bNovo processo protocolado em|PREFEITURA DANFE|mensageiro Jackson esta a caminho|Jackson ja esta com seu pedido|Jackson esta indo com seu pedido|mensageiro ja esta na estrada|O mensageiro esta a caminho|esta na estrada com seu pedido|sera entregue por Jackson|a caminho com Jackson|Mensageiro a caminho|Acompanhe sua entrega #/i
+header      SA_TRASH729 Subject =~ /\bNovo processo protocolado em|PREFEITURA DANFE|mensageiro Jackson esta a caminho|Jackson ja esta com seu pedido|Jackson esta indo com seu pedido|mensageiro ja esta na estrada|O mensageiro esta a caminho|esta na estrada com seu pedido|sera entregue por Jackson|a caminho com Jackson|Mensageiro a caminho|Acompanhe sua entrega/i
 score       SA_TRASH729 80
 describe    SA_TRASH729 Spam Trash geral 729
 
