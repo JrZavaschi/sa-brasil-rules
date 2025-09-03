@@ -16,7 +16,8 @@ O objetivo é melhorar a detecção de SPAM, phishing e malwares comuns em campa
 ### SpamAssassin / Proxmox Mail Gateway
 1. Copie os arquivos de regras para o diretório de configuração:
    ```bash
-   /etc/mail/spamassassin/
+   cd /etc/mail/spamassassin/
+   wget -O regras-brasil.cf https://raw.githubusercontent.com/JrZavaschi/sa-brasil-rules/refs/heads/main/regras-brasil.cf
    
 2. Inclua no local.cf ou init.pre a referência às regras:
    ```bash
